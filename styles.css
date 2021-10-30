@@ -1,0 +1,181 @@
+body{
+    font-family: 'Bitter', serif;
+    margin: 0;
+    padding: 0px;
+}
+
+header{
+    background-color: yellow;
+    width: 100%;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+}
+
+a{
+    cursor: pointer;
+}
+
+#logo{
+    padding-left: 25px;
+    animation-name: logoan;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    color: rgb(85, 0, 0);
+}
+
+@keyframes logoan{
+    0% {
+        color: rgb(85, 0, 0);
+    }
+    25% {
+        color: #DA4167;
+    }
+
+    50% {
+        color: #083D77;
+    }
+
+    75%{
+        color: #17301C
+    }
+
+    100%{
+        color: rgb(85, 0, 0);
+    }
+}
+
+header h1{
+    text-transform: uppercase;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3px;
+}
+
+nav ul li{
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(190, 190, 190);
+    border-radius: 3px;
+}
+
+#ativo{
+    background-color: rgb(190, 190, 190);
+    border-radius: 3px;
+}
+
+main{
+    padding: 50px;
+    
+}
+
+main #ulno{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    padding-left: 50px;
+}
+
+#ip-mg, #vacina, #vacina-raiva, #onibus-lilas{
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+main img{
+    padding-left: 15px;
+}
+
+main article h1 a{
+    text-decoration: none;
+    color:rgb(45, 45, 45);
+    
+}
+
+#comentarios{
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+#subcomentario{
+    opacity: 0.7;
+    font-size: 15px;
+    padding-left: 15px;
+    
+}
+
+footer{
+    background-color: yellow;
+    width: 100%;
+    padding: 0.5px 20px 0.5px 20px;
+    color: rgb(85, 0, 0);
+    text-align: center;
+    font-weight: bold;
+
+    
+}
+
+footer p{
+    font-size: 30px;
+}
+
+footer h1{
+    font-size: 18px;
+}
+
+
+.destaque{
+    color: rgb(85, 0, 0);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.txt{
+    font-size: 17px;
+    text-align: justify;
+}
+
+main section h2 a{
+    text-decoration: none;
+    
+}
+
+#creditos{
+    color:rgb(85, 0, 0);
+    font-size: 20px;
+}
+
+#txtupvid{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: justify;
+
+}
+
+#sobre{
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+#creditos a:link{
+    color: purple;
+}
+    
+#creditos a:visited{
+    color: lightgreen;
+}
